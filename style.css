@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('pizza.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h2 {
+    color: #c0392b;
+}
+
+footer {
+    background-color: #c0392b;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
